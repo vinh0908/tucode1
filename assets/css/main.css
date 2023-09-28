@@ -307,6 +307,10 @@ a.home__image-small--next-link {
 }
 
 .home__news-header--item-2 {
+    padding: 0 60px 0 73px;
+}
+
+.home__news-header--item-3 {
     padding-left: 90px;
 }
 
