@@ -52,10 +52,9 @@ html {
 
 .grid__column-10 {
     position: relative;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-top: 20px;
     width: 90%;
-    height: 180px;
+    height: 230px;
     margin-left: 80px;
 }
 
@@ -67,224 +66,211 @@ html {
 .grid__column-11-4 {
     position: relative;
     width: 100%;
-    height: 43vh;
+    height: 8vh;
     padding-top: 15px;
 }
 
 .grid__column-11-8 {
     position: relative;
     width: 100%;
+    top: 300px;
 }
 
 /* Mobile  */
 @media only screen and (max-width: 46.1875em) {
-    header.header {
+    .grid__column-11-4 {
+        top: 90px;
+    }
+
+    .header {
         width: 200%;
     }
 
-    .header__img {
+    .header__img-big {
         width: 200%;
+    }
+
+    .wrapper {
+        left: 120px;
+    }
+
+    .header__img-input {
+        left: 400px;
+        width: 90%;
     }
 
     .grid__column-10 {
-        position: relative;
-        padding-left: 5px;
-        padding-right: 5px;
-        width: 150%;
-        height: 110px;
-        margin-left: 80px;
-    }
-
-    .home__image-small--img {
-        width: 100%;
-    }
-
-    .home__image-small {
-        display: flex;
-        margin: 25px 0;
-    }
-
-    .home__image-small--controller {
-        position: absolute;
-        display: flex;
-        top: 25px;
-        width: 110%;
-        left: -20px;
+        width: 155%;
     }
 
     .grid__column-11 {
-        width: 200%;
+        width: 150%;
+    }
+
+    .carousel1 .carouselimg {
+        width: calc(100% / 2.15);
     }
 
     .grid__column-11-4 {
-        position: relative;
-        width: 100%;
-        height: 43vh;
+        top: 10px;
     }
 
-    .home__image-small-font {
-        width: 100%;
-        height: 15vh;
-        border: 1px solid white;
-        border-radius: 15px;
+    .grid__column-11-4 {
+        width: 110%;
     }
 
-    .home__image-big {
-        margin-left: 16%;
-    }
-
-    .home__content-prev--link {
-        width: 85%;
-    }
-
-    .home__content-controller {
-        top: 150px;
+    .home__content {
+        width: 115%;
     }
 
     .grid__column-11-8 {
-        bottom: 120px;
+        width: 110%;
     }
 
-    .home__content-controller-1 {
-        top: 200px;
+    .wrapper2 {
+        top: 320px;
+    }
+
+    .wrappericon2:first-child {
+        top: 280px;
+    }
+
+    .wrappericon2:last-child {
+        top: 280px;
     }
 
     .home__panigation {
         position: relative;
-        bottom: 120px;
+        top: 830px;
         width: 180%;
+        margin-left: 10%;
     }
 
     .home__news {
-        position: relative;
-        display: flex;
         width: 180%;
-        bottom: 100px;
     }
 
     .home__news-header--item {
-        padding: 0 15px;
-    }
-
-    .home__news-header--list {
-        position: absolute;
-        display: flex;
-        right: 0;
+        padding: 0px 0px 0 60px;
     }
 
     .home__news-all {
-        position: relative;
         width: 180%;
-        padding: 20px;
-        bottom: 100px;
-    }
-
-    .home__news-header--information-all {
-        width: 30%;
-        line-height: 25px;
     }
 
     .home__news-header--item-1 {
-        padding-right: 65px;
-        width: 40px;
+        padding: 0 0 0 15px;
     }
 
-    .home__news-header--item-2 {
-        padding-right: 70px;
-        width: 40px;
-    }
-
-    .home__news-header--item-3 {
-        padding-right: 130px;
-        width: 40px;
+    .home__container-news {
+        top: 830px;
     }
 
     .home__footer-image {
         width: 200%;
     }
 
-    .header__img-search--btn::after {
-        height: 30px;
+    .home__footer {
+        top: 830px;
     }
+
 }
 
 /* Tablet */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     .header {
-        width: 110%;
+        width: 105%;
     }
 
-    .header__img {
-        width: 110%;
+    .header__img-big {
+        width: 105%;
     }
 
     .grid__column-10 {
-        position: relative;
-        width: 100%;
-        height: 110px;
-        right: 40px;
+        margin-left: 50px;
     }
 
-    .home__image-small--controller {
-        position: absolute;
-        display: flex;
-        top: 30px;
-        width: 103%;
+    .carousel img {
+        width: calc(100% / 2.05);
     }
 
-    .grid__column-11 {
-        padding: 10px 5px 0 5px;
-        width: 95%;
+    .wrapper1 {
+        left: 90px;
     }
 
-    .grid__column-11-4 {
-        position: relative;
-        width: 110%;
-        height: 40vh;
-    }
-
-    .home__content {
-        display: flex;
-        padding: 20px;
-        width: 100%;
-        align-items: center;
+    .carousel1 .carouselimg {
+        width: calc(100% / 4.4);
+        height: 200px;
     }
 
     .grid__column-11-8 {
-        position: relative;
-        width: 115%;
+        top: 210px;
     }
 
-    .grid__column-2-4 {
-        width: 24%;
-        padding-left: 10px;
-        padding-right: 10px;
+    .wrapper2 {
+        left: 90px;
+        top: 270px;
     }
 
-    .home__image-big {
-        margin-left: 10%;
+    .wrapper3 {
+        left: 90px;
     }
 
-    .home__image-small-font {
-        width: 105%;
-        height: 20vh;
-        border: 1px solid white;
-        border-radius: 20px;
+    .wrappericon2:first-child {
+        top: 230px;
     }
 
-    .home__content-prev--link {
-        display: block;
-        width: 92%;
+    .wrappericon2:last-child {
+        top: 230px;
     }
 
-    .home__content-controller {
-        position: absolute;
+    .home__panigation {
+        margin-left: 12%;
+        top: 650px;
+    }
+
+    .home__container-news {
+        top: 650px;
+    }
+
+    .home__news {
+        width: 85%;
         display: flex;
-        top: 190px;
-        width: 89%;
-        align-items: center;
-        justify-content: center;
     }
 
+    .home__news-header--item {
+        padding: 0 0 0 79px;
+    }
 
+    .home__news-header--list {
+        padding-left: 75px;
+    }
+
+    .home__news-header--item-1 {
+        padding-left: 0px;
+    }
+
+    .home__news-header--item-2 {
+        padding-left: 0px;
+    }
+
+    .home__news-header--item-3 {
+        padding-left: 20px;
+    }
+
+    .home__news-all {
+        padding: 20px 0px 20px 20px;
+    }
+
+    .home__footer {
+        top: 650px;
+    }
+
+    .home__footer-image {
+        width: 94%;
+    }
+
+    .home__news-header--information {
+        padding-left: 0px;
+    }
 }
