@@ -1,7 +1,7 @@
 var swiper = new Swiper(".slide-container", {
     slidesPerView: 5,
     spaceBetween: 20,
-    slidesPerGroup: 5,
+    slidesPerGroup: 1,
     loop: true,
     centerSlide: "true",
     grabCursor: "true",
@@ -18,7 +18,7 @@ var swiper = new Swiper(".slide-container", {
 
     breakpoints: {
         0: {
-            slidesPerView: 1,
+            slidesPerView: 2,
         },
         520: {
             slidesPerView: 2,

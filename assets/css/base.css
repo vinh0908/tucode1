@@ -108,7 +108,7 @@ html {
     }
 
     .carousel1 .carouselimg {
-        width: calc(100% / 2.15);
+        width: calc(100% / 2.12);
     }
 
     .grid__column-11-4 {
@@ -141,7 +141,7 @@ html {
 
     .home__panigation {
         position: relative;
-        top: 830px;
+        top: 870px;
         width: 180%;
         margin-left: 10%;
     }
@@ -163,7 +163,7 @@ html {
     }
 
     .home__container-news {
-        top: 830px;
+        top: 870px;
     }
 
     .home__footer-image {
@@ -171,9 +171,20 @@ html {
     }
 
     .home__footer {
-        top: 830px;
+        top: 870px;
     }
 
+    .header__img-search--btn::after {
+        width: 100px;
+    }
+
+    .carousel3 .carouselimg3 {
+        width: calc( 100% / 4.5);
+    }
+
+    .slider-wrapper1 .image-list1 .image-item1 {
+        width: 205px;
+    }
 }
 
 /* Tablet */
@@ -194,21 +205,12 @@ html {
         width: calc(100% / 2.05);
     }
 
-    .wrapper1 {
-        left: 90px;
-    }
-
     .carousel1 .carouselimg {
         width: calc(100% / 4.4);
         height: 200px;
     }
 
     .grid__column-11-8 {
-        top: 210px;
-    }
-
-    .wrapper2 {
-        left: 90px;
         top: 270px;
     }
 
@@ -226,11 +228,11 @@ html {
 
     .home__panigation {
         margin-left: 12%;
-        top: 650px;
+        top: 820px;
     }
 
     .home__container-news {
-        top: 650px;
+        top: 820px;
     }
 
     .home__news {
@@ -263,7 +265,7 @@ html {
     }
 
     .home__footer {
-        top: 650px;
+        top: 820px;
     }
 
     .home__footer-image {
@@ -272,5 +274,31 @@ html {
 
     .home__news-header--information {
         padding-left: 0px;
+    }
+
+    .slider-wrapper1 {
+        padding: 20px 0 0 75px;
+    }
+
+    .slider-wrapper1 .slide-button#next-slide {
+        right: -45px;
+    }
+
+    .carousel3 .carouselimg3 {
+        width: calc( 100% / 4.4);
+        height: 25vh;
+    }
+
+    .wrappericon3:first-child {
+        top: 285px;
+    }
+
+    .wrappericon3:last-child {
+        top: 285px;
+    }
+
+    .slider-wrapper1 .image-list1 .image-item1 {
+        width: 195px;
+        height: 25vh;
     }
 }

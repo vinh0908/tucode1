@@ -357,21 +357,6 @@
 }
 
 /* slide image ver2 */
-.wrapper1 {
-    max-width: 80%;
-    position: absolute;
-    padding: 20px;
-    left: 150px;
-}
-
-.wrapper2 {
-    max-width: 80%;
-    position: absolute;
-    padding: 20px;
-    left: 150px;
-    top: 350px;
-}
-
 .wrapper3 {
     max-width: 80%;
     position: absolute;
@@ -379,7 +364,7 @@
     left: 150px;
 }
 
-.wrappericon {
+.wrappericon3 {
     top: 50%;
     position: absolute;
     height: 46px;
@@ -391,39 +376,18 @@
     cursor: pointer;
 }
 
-.wrappericon2 {
-    top: 50%;
-    position: absolute;
-    height: 46px;
-    width: 46px;
-    text-align: center;
-    line-height: 46px;
-    font-size: 2rem;
-    transform: translateY(-50%);
-    cursor: pointer;
-}
-
-.wrappericon:first-child {
+.wrappericon3:first-child {
     left: -50px;
     /* display: none; */
+    top: 310px;
 }
 
-.wrappericon2:first-child {
-    left: -50px;
-    /* display: none; */
-    top: 300px;
-}
-
-.wrappericon:last-child {
+.wrappericon3:last-child {
     right: -46px;
+    top: 310px;
 }
 
-.wrappericon2:last-child {
-    right: -46px;
-    top: 300px;
-}
-
-.wrapper1 .carousel1 {
+.wrapper3 .carousel3 {
     font-size: 0;
     overflow: hidden;
     cursor: pointer;
@@ -431,32 +395,20 @@
     scroll-behavior: smooth;
 }
 
-.wrapper3 .carousel1 {
-    font-size: 0;
-    overflow: hidden;
-    cursor: pointer;
-    white-space: nowrap;
-    scroll-behavior: smooth;
+.carousel2 {
+    padding-top: 10px;
 }
 
-.wrapper2 .carousel1 {
-    font-size: 0;
-    overflow: hidden;
-    cursor: pointer;
-    white-space: nowrap;
-    scroll-behavior: smooth;
-}
-
-.carousel1 .ragging {
+.carousel3 .ragging3 {
     cursor: grab;
     scroll-behavior: auto;
 }
 
-.carousel1 .ragging .carouselimg {
+.carousel3 .ragging3 .carouselimg3 {
     pointer-events: none;
 }
 
-.carousel1 .carouselimg {
+.carousel3 .carouselimg3 {
     margin-left: 14px;
     height: 30vh;
     object-fit: cover;
@@ -465,18 +417,105 @@
     border-radius: 20px;
 }
 
-.carouselimg:first-child {
+.carouselimg3:first-child {
     margin-left: 0px;
 }
 
-@media screen and (max-width: 900px) {
-    .carouselimg {
-        width: calc(100% / 2);
-    }
+/* slide big center */
+.container1 {
+    max-width: 1460px;
+    width: 95%;
 }
 
-@media screen and (max-width: 550px) {
-    .carouselimg {
-        width: 100%;
-    }
+.slider-wrapper1 {
+    position: relative;
+    padding: 20px 0 0 170px;
+}
+
+.slider-wrapper1 .slide-button {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    color: black;
+    border: none;
+    outline: none;
+    font-size: 2.2rem;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.slider-wrapper1 .slide-button#prev-slide {
+    left: 120px;
+    display: none;
+}
+
+.slider-wrapper1 .slide-button#next-slide {
+    right: -34px;
+}
+
+.slider-wrapper1 .image-list1 {
+    display: grid;
+    gap: 18px;
+    font-size: 0;
+    margin-bottom: 30px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.slider-wrapper1 .image-list1::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-wrapper1 .image-list1 .image-item1 {
+    width: 305px;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.container .slider-scrollbar {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.slider-scrollbar .scrollbar-track {
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    position: relative;
+    border-radius: 4px;
+}
+
+.slider-scrollbar:hover .scrollbar-track {
+    height: 4px;
+}
+
+.slider-scrollbar .scrollbar-thumb {
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    background: #000;
+    border-radius: inherit;
+    cursor: grab;
+}
+
+.slider-scrollbar .scrollbar-track:active {
+    cursor: grabbing;
+    height: 8px;
+    top: -2px;
+}
+
+.slider-scrollbar .scrollbar-thumb::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -10px;
+    bottom: -10px;
 }
