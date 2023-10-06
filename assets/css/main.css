@@ -226,6 +226,10 @@
     font-size: 2.2rem;
 }
 
+.home__panigation--link:hover {
+    color: aqua;
+}
+
 /* information */
 .home__news {
     background-color: #cccccc;
@@ -245,6 +249,18 @@
 .home__news-header--information {
     display: inline-block;
     padding-left: 15px;
+}
+
+.home__news-header--information-all:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.home__news-header--item-1:hover,
+.home__news-header--item-2:hover,
+.home__news-header--item-3:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .home__news-header--list {
