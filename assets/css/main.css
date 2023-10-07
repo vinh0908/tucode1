@@ -72,7 +72,7 @@
 .header__img-input {
     position: absolute;
     top: 15px;
-    right: 16px;
+    right: 100px;
 }
 
 .header__img-search {
@@ -82,25 +82,14 @@
 }
 
 .header__img-search--btn {
+    position: absolute;
+    right: -15px;
     background-color: white;
     margin-right: 15px;
     border: none;
-    border-radius: 10px;
-    outline: none;
-    height: 30px;
-}
-
-.header__img-search--btn::after {
-    content: "";
-    position: absolute;
-    right: 10px;
-    top: 0;
-    width: 80px;
-    height: 30.5px;
-    background-color: white;
-    cursor: pointer;
-    border: 1px solid white;
     border-radius: 13px;
+    outline: none;
+    height: 32px;
 }
 
 .header__img-search--icon {
