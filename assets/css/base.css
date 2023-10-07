@@ -92,7 +92,7 @@ html {
 
     .header__img-input {
         display: flex;
-        left: 450px;
+        left: 400px;
     }
 
     .header__img-search--btn {
@@ -117,16 +117,16 @@ html {
     }
 
     .slider-wrapper1 .image-list1 .image-item1 {
-        width: 210px;
+        width: 200px;
         height: 25vh;
     }
 
     .slider-wrapper1 .slide-button#prev-slide {
-        left: -5px;
+        left: 0px;
     }
 
     .slider-wrapper1 .slide-button#next-slide {
-        right: -30px;
+        right: -50px;
     }
 
     .wrapper3 {
@@ -142,20 +142,26 @@ html {
 
     .wrappericon3:first-child {
         top: 210px;
+        left: -50px;
     }
 
     .wrappericon3:last-child {
         top: 210px;
-        right: -35px;
+        right: -40px;
+    }
+
+    .grid__column-11-4 {
+        left: -15px;
     }
 
     .grid__column-11-8 {
-        top: 240px;
+        top: 230px;
+        left: -15px;
     }
 
     .home__panigation {
-        width: 175%;
-        top: 710px;
+        width: 170%;
+        top: 670px;
     }
 
     .home__news {
@@ -175,7 +181,8 @@ html {
     }
 
     .home__container-news {
-        top: 710px;
+        top: 670px;
+        left: -15px;
     }
 
     .home__news-header--item-3 {
@@ -187,22 +194,22 @@ html {
     }
 
     .home__footer {
-        top: 710px;
+        top: 670px;
     }
 }
 
 /* Tablet */
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     .header {
-        width: 105%;
+        width: 100%;
     }
 
     .header__img-big {
-        width: 105%;
+        width: 100%;
     }
 
     .grid__column-10 {
-        margin-left: 50px;
+        margin-left: 40px;
     }
 
     .carousel img {
@@ -219,7 +226,7 @@ html {
     }
 
     .wrapper3 {
-        left: 90px;
+        left: 80px;
     }
 
     .wrappericon2:first-child {
@@ -237,6 +244,7 @@ html {
 
     .home__container-news {
         top: 820px;
+        left: -20px;
     }
 
     .home__news {
@@ -270,6 +278,7 @@ html {
 
     .home__footer {
         top: 820px;
+        left: -20px;
     }
 
     .home__footer-image {
@@ -281,11 +290,11 @@ html {
     }
 
     .slider-wrapper1 {
-        padding: 20px 0 0 75px;
+        padding: 20px 0 0 66px;
     }
 
     .slider-wrapper1 .slide-button#next-slide {
-        right: -45px;
+        right: -35px;
     }
 
     .carousel3 .carouselimg3 {
@@ -308,5 +317,9 @@ html {
 
     .slider-wrapper1 .slide-button#prev-slide {
         left: 15px;
+    }
+
+    .header__img-input {
+        right: 50px;
     }
 }
