@@ -92,12 +92,12 @@ html {
 
     .header__img-input {
         display: flex;
-        left: 400px;
+        left: 440px;
     }
 
     .header__img-search--btn {
         position: absolute;
-        left: 210px;
+        left: 200px;
     }
 
     .header__img-search--icon {
@@ -117,16 +117,16 @@ html {
     }
 
     .slider-wrapper1 .image-list1 .image-item1 {
-        width: 200px;
+        width: 210px;
         height: 25vh;
     }
 
     .slider-wrapper1 .slide-button#prev-slide {
-        left: 0px;
+        left: -10px;
     }
-
-    .slider-wrapper1 .slide-button#next-slide {
-        right: -50px;
+wr
+    .slider-wrappewrr1 .slide-button#next-slide {
+        right: -35px;
     }
 
     .wrapper3 {
@@ -151,7 +151,7 @@ html {
     }
 
     .grid__column-11-4 {
-        left: -15px;
+        left: -5px;
     }
 
     .grid__column-11-8 {
